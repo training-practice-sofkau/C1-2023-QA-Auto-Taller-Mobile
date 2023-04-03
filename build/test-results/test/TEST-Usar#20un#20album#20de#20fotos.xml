@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Usar un album de fotos" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-03T20:26:43" hostname="MELISSA-PC" time="20.165">
-  <properties/>
-  <testcase name="usar exitosamente un album de fotos" classname="Usar un album de fotos" time="20.165"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

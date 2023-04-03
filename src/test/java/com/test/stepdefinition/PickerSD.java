@@ -1,6 +1,7 @@
 package com.test.stepdefinition;
 
 import com.test.setup.SetUp;
+import com.test.ui.Picker;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -26,8 +27,9 @@ public class PickerSD extends SetUp {
         }catch (Exception e){}
 
     }
-    @When("Agregamos el mes seleccionado {string} y el dia elegido {string}")
-    public void agregamosElMesSeleccionadoYElDiaElegido(String string, String string2) {
+
+    @When("Agregamos el mes seleccionado October y el dia elegido {int}")
+    public void agregamosElMesSeleccionadoOctoberYElDiaElegido(Integer int1) {
         try {
             actor.attemptsTo(
                     pickerTaskONE()
@@ -35,10 +37,22 @@ public class PickerSD extends SetUp {
         }catch (Exception e ){}
 
     }
+    @When("Agregamos el mes seleccionado September y el dia elegido {int}")
+    public void agregamosElMesSeleccionadoSeptemberYElDiaElegido(Integer int1) {
+        try {
+            actor.attemptsTo(
+                    pickerTaskTWO()
+            );
+        }catch (Exception e ){}
+    }
 
     @Then("Obtenemos la informacion adecuada en pantalla")
     public void obtenemosLaInformacionAdecuadaEnPantalla() {
-
+        try {
+            Picker.BTN_VALIDACION_TITLE.resolveFor(actor).isPresent();
+        }catch (Exception e){
+            throw new AssertionError("No se encontro el boton de validacion", e);
+        }
     }
 
 }

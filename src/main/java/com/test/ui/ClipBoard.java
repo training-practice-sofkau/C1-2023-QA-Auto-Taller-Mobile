@@ -20,6 +20,9 @@ public class ClipBoard {
     public static final Target BTN_REFRESH = Target
             .the("refrescar")
             .located(xpath("//android.view.ViewGroup[@content-desc=\"refreshClipboardText\"]/android.widget.TextView"));
+    public static final Target BTN_VALIDATION1 = Target
+            .the("opcion validar 1")
+            .located(id("el dia esta muy soleado"));
 
 
 }

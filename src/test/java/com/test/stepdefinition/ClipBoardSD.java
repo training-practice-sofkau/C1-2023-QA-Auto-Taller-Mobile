@@ -2,6 +2,8 @@ package com.test.stepdefinition;
 
 import com.test.question.TheResult;
 import com.test.setup.SetUp;
+import com.test.ui.ClipBoard;
+import com.test.ui.Photo;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -14,7 +16,7 @@ import static com.test.task.ClipBoardTaskOpen.clipBoardTaskOpen;
 
 
 public class ClipBoardSD extends SetUp {
-    @Before
+   @Before
     public void before(){
         OnStage.setTheStage(new OnlineCast());
     }
@@ -37,20 +39,24 @@ public class ClipBoardSD extends SetUp {
             );
         }catch (Exception e){}
     }
-    @When("Agregamos los {string}")
-    public void agregamosLos(String textos) {
+    @When("Agregamos el texto deseado")
+    public void agregamosElTextoDeseado() {
         try {
             actor.attemptsTo(
-                    clipBoardTask().conElMensaje(textos)
+                    clipBoardTask()
             );
         }catch(Exception e){
             throw new AssertionError("ocurrio un error", e);
         }
 
     }
-    @Then("Obtenemos los mismos {string} en pantalla")
-    public void obtenemosLosMismosEnPantalla(String textosescritos) {
-
+    @Then("Obtenemos el mismo texto guardado en pantalla")
+    public void obtenemosElMismoTextoGuardadoEnPantalla() {
+        try{
+            ClipBoard.BTN_VALIDATION1.resolveFor(actor).isPresent();
+        }catch (Exception e){
+            throw new AssertionError("No se encontro el boton de confirmacion", e);
+        }
 
     }
 }
