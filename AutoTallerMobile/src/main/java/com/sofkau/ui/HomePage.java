@@ -14,7 +14,7 @@ public class HomePage extends PageObject {
             .located(xpath("//android.view.ViewGroup[@content-desc=\"Echo Box\"]/android.view.ViewGroup/android.view.ViewGroup/android.widget.TextView"));
 
     public static final Target PICKER_DEMO_FEATURE = Target.the("picker demo feature")
-            .located(xpath("//android.view.ViewGroup[@content-desc=\"Picker Demo\"]/android.widget.TextView[1]"));
+            .located(xpath("//android.view.ViewGroup[@content-desc=\"Picker Demo\"]/android.view.ViewGroup/android.view.ViewGroup/android.widget.TextView"));
 
     public static final Target LIST_DEMO_FEATURE = Target.the("list demo feature")
             .located(xpath("//android.view.ViewGroup[@content-desc=\"List Demo\"]/android.view.ViewGroup/android.widget.TextView[1]"));

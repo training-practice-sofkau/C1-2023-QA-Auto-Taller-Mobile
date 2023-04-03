@@ -11,24 +11,23 @@ import org.apache.log4j.Logger;
 import org.assertj.core.api.Assertions;
 import org.junit.Before;
 
-import static com.sofkau.questions.EchoBoxResult.echoBoxResult;
-import static com.sofkau.tasks.NavigateToEchoBox.navigateToEchoBox;
-import static com.sofkau.tasks.EnterText.enterText;
-import static com.sofkau.util.Constants.ECHO_BOX_SAVED;
+import static com.sofkau.tasks.NavigateToPickerDemo.navigateToPickerDemo;
+import static com.sofkau.tasks.PickDate.pickDate;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
-import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.notNullValue;
 
-public class EchoBoxStepDefinition extends SetUp {
+public class PickerDemoStepDefinition extends SetUp {
 
-    public static Logger LOGGER = Logger.getLogger(EchoBoxStepDefinition.class);
+    public static Logger LOGGER = Logger.getLogger(PickerDemoStepDefinition.class);
+
     @Before
     public void before(){
 
         OnStage.setTheStage(new OnlineCast());
     }
 
-    @Given("el usuario ingresa a la funcionalidad de Echo Box")
-    public void elUsuarioIngresaALaFuncionalidadDeEchoBox() {
+    @Given("el usuario ingresa a la aplicacion TheApp")
+    public void elUsuarioIngresaALaAplicacionTheApp() {
         try {
             setUplog4j();
             actor.can(BrowseTheWeb.with(theMobileDevice));
@@ -40,27 +39,25 @@ public class EchoBoxStepDefinition extends SetUp {
             quitarDriver();
         }
     }
-    @When("ingresa un texto {string} en el campo habilitado")
-    public void ingresaUnTextoEnElCampoHabilitado(String texto) {
+    @When("nave hasta la funcionalidad PickerDemo, luego ingresa una fecha")
+    public void naveHastaLaFuncionalidadPickerDemoLuegoIngresaUnaFecha() {
         try {
             actor.attemptsTo(
-                    navigateToEchoBox(),
-                    enterText()
-                            .conElText(texto)
-
+                    navigateToPickerDemo(),
+                    pickDate()
             );
         } catch (Exception e){
-            LOGGER.info("Fallo en la escritura del texto");
+            LOGGER.info("Fallo al seleccionar la fecha");
             LOGGER.warn(e.getMessage());
             Assertions.fail(e.getMessage());
             quitarDriver();
         }
     }
-    @Then("el usuario debe visualizar en pantalla un mensaje del texto guardado")
-    public void elUsuarioDebeVisualizarEnPantallaUnMensajeDelTextoGuardado() {
+    @Then("debe observar eventos sucedidos en la fecha seleccionada")
+    public void debeObservarEventosSucedidosEnLaFechaSeleccionada() {
         try {
             actor.should(
-                    seeThat(echoBoxResult(), equalTo("****"))
+                    seeThat(act -> pickDate(), notNullValue())
             );
             LOGGER.info("CUMPLE");
         } catch (Exception e){

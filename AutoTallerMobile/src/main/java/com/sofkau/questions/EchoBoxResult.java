@@ -11,7 +11,7 @@ public class EchoBoxResult implements Question<String> {
 
     @Override
     public String answeredBy(Actor actor) {
-        return ECHO_BOX_SAVED_MESSAGE.resolveFor(actor).getText();
+        return  ECHO_BOX_SAVED_MESSAGE.resolveFor(actor).getText();
     }
 
     public static EchoBoxResult echoBoxResult(){
