@@ -1,8 +1,6 @@
 package com.test.stepdefinition;
 
-import com.test.question.ValidarLoginExitoso;
-import com.test.question.ValidarLoginFallido;
-import com.test.question.ValidarMensajeFoto;
+import com.test.question.ValidarMensajeFecha;
 import com.test.setup.SetUp;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -14,21 +12,19 @@ import org.apache.log4j.Logger;
 import org.assertj.core.api.Assertions;
 import org.junit.Before;
 
-import static com.test.task.PhotoDemoTask.photoDemoTask;
+import static com.test.task.PickerDemoTask.pickerDemoTask;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.Matchers.notNullValue;
 
-
-public class PhotoDemoStepDefinitions extends SetUp {
-    public static Logger LOGGER = Logger.getLogger(LoginStepDefinitions.class);
+public class PickerDemoStepDefinitions extends SetUp {
+    public static Logger LOGGER = Logger.getLogger(PickerDemoStepDefinitions.class);
 
     @Before
     public void before(){
         OnStage.setTheStage(new OnlineCast());
     }
-
-    @Given("que el usuario se encuentra en la pagina del inicio")
-    public void queElUsuarioSeEncuentraEnLaPaginaDelInicio() {
+    @Given("que el user se encuentra en la pagina del inicio")
+    public void queElUserSeEncuentraEnLaPaginaDelInicio() {
         try {
             LOGGER.info("INICIA LA AUTOMATIZACION");
             actor.can(BrowseTheWeb.with(theMobileDevice));
@@ -40,11 +36,11 @@ public class PhotoDemoStepDefinitions extends SetUp {
 
         }
     }
-    @When("el usuario entra a la funcion Photo Demo y selecciona la primer foto")
-    public void elUsuarioEntraALaFuncionPhotoDemoYSeleccionaLaPrimerFoto() {
+    @When("el usuario entra a la funcion Picker Demo y selecciona una fecha")
+    public void elUsuarioEntraALaFuncionPickerDemoYSeleccionaUnaFecha() {
         try {
             actor.attemptsTo(
-                    photoDemoTask()
+                    pickerDemoTask()
             );
         }catch (Exception exception){
             LOGGER.info(" fallo en la nevagacion de la funcionalidad");
@@ -53,11 +49,11 @@ public class PhotoDemoStepDefinitions extends SetUp {
 
         }
     }
-    @Then("el usuario debera ver en pantalla la información de la foto")
-    public void elUsuarioDeberaVerEnPantallaLaInformaciónDeLaFoto() {
+    @Then("el usuario debera ver un mensaje con informacion de algo ocurrido en la fecha")
+    public void elUsuarioDeberaVerUnMensajeConInformacionDeAlgoOcurridoEnLaFecha() {
         try {
             actor.should(
-                    seeThat(ValidarMensajeFoto.isEqualTo(), notNullValue())
+                    seeThat(ValidarMensajeFecha.isEqualTo(), notNullValue())
             );
 
             LOGGER.info("CUMPLE");
@@ -68,5 +64,4 @@ public class PhotoDemoStepDefinitions extends SetUp {
 
         }
     }
-
 }
