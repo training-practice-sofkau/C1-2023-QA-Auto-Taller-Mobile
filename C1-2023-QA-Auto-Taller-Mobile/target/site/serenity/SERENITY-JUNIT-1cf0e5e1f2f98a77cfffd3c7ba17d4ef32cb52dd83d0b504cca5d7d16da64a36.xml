@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Photo Demo" skipped="0" tests="1" time="17.38" timestamp="2023-04-03 04:44:33"><testcase name="Photo demo"><failure message="&#13;&#10;Expected: a string containing &quot;This is a picture of: A long thin cloud below mountain level&quot;&#13;&#10;     but: was &quot;This is a picture of: Imposing mountains and West Vancouver&quot;" type="java.lang.AssertionError">&#13;
+Expected: a string containing "This is a picture of: A long thin cloud below mountain level"&#13;
+     but: was "This is a picture of: Imposing mountains and West Vancouver"</failure><system-err>&#13;
+Expected: a string containing "This is a picture of: A long thin cloud below mountain level"&#13;
+     but: was "This is a picture of: Imposing mountains and West Vancouver"&#13;
+com.sofkau.stepdefinitions.PhotoDemoSD.elUsuarioDebeVerLaDeLaPhoto(PhotoDemoSD.java:58)&#13;
+✽.el usuario debe ver la "This is a picture of: A long thin cloud below mountain level" de la photo(file:///C:/Users/jeiso/OneDrive/Escritorio/softka/semana%20Automatizacion/C1-2023-QA-Auto-Taller-Mobile/C1-2023-QA-Auto-Taller-Mobile/src/test/resources/features/photodemo.feature:10)&#13;
+</system-err></testcase></testsuite>

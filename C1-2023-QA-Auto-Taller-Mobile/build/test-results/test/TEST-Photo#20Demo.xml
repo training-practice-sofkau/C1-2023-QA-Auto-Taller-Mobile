@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Photo Demo" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-04-03T21:44:33" hostname="DESKTOP-BTHGFUF" time="17.389">
+  <properties/>
+  <testcase name="PhotoDemo" classname="Photo Demo" time="17.389">
+    <failure message="java.lang.AssertionError: &#13;&#10;Expected: a string containing &quot;This is a picture of: A long thin cloud below mountain level&quot;&#13;&#10;     but: was &quot;This is a picture of: Imposing mountains and West Vancouver&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: a string containing &quot;This is a picture of: A long thin cloud below mountain level&quot;
+     but: was &quot;This is a picture of: Imposing mountains and West Vancouver&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at net.serenitybdd.screenplay.QuestionConsequence.evaluateFor(QuestionConsequence.java:49)
+	at net.serenitybdd.screenplay.Actor.check(Actor.java:377)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:349)
+	at com.sofkau.stepdefinitions.PhotoDemoSD.elUsuarioDebeVerLaDeLaPhoto(PhotoDemoSD.java:58)
+	at ✽.el usuario debe ver la &quot;This is a picture of: A long thin cloud below mountain level&quot; de la photo(file:///C:/Users/jeiso/OneDrive/Escritorio/softka/semana%20Automatizacion/C1-2023-QA-Auto-Taller-Mobile/C1-2023-QA-Auto-Taller-Mobile/src/test/resources/features/photodemo.feature:10)
+</failure>
+  </testcase>
+  <system-out><![CDATA[2023-04-03 16:44:41 INFO  InicioSesionSD:35 INICIA LA AUTOMATIZACION
+2023-04-03 16:44:46 INFO  InicioSesionSD:48 Realiza la peticion
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

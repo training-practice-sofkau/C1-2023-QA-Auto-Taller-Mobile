@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Echo Box" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-03T21:43:47" hostname="DESKTOP-BTHGFUF" time="25.808">
+  <properties/>
+  <testcase name="Echo Box" classname="Echo Box" time="25.808"/>
+  <system-out><![CDATA[2023-04-03 16:44:01 INFO  InicioSesionSD:36 INICIA LA AUTOMATIZACION
+2023-04-03 16:44:09 INFO  InicioSesionSD:50 Realiza la peticion
+2023-04-03 16:44:11 INFO  InicioSesionSD:64 CUMPLE
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
