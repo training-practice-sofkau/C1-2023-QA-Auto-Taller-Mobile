@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login The App" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-04-03T21:39:39" hostname="JUANDAVIDPC" time="66.781">
+  <properties/>
+  <testcase name="Login Fallido #1" classname="Login The App" time="26.699"/>
+  <testcase name="Login Fallido #2" classname="Login The App" time="20.742"/>
+  <testcase name="Login Fallido #3" classname="Login The App" time="19.34"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
