@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 
 public class SetUp {
 
-    protected Actor actor = Actor.named("User");
+    protected Actor actor = Actor.named("Jose");
     @Managed(driver = "Appium")
     protected WebDriver theMobileDevice;
 
