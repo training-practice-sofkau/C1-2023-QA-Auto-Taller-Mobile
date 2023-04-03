@@ -9,6 +9,7 @@ import org.junit.runner.RunWith;
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         features = {"src/test/resources/features/login.feature"},
         glue = {"com.sofkau.stepdefinitions"}
+   //     tags = "@Failed"
 )
 public class LoginTest {
 

@@ -11,3 +11,4 @@ Feature: Ver fotos en The App
       | id | message                |
       | 1  | "This is a picture of" |
       | 2  | "This is a picture of" |
+      | 3  | "This is a picture of" |

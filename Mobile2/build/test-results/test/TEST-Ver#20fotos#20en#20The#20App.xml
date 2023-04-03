@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Ver fotos en The App" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-04-03T20:44:00" hostname="JUANDAVIDPC" time="39.101">
-  <properties/>
-  <testcase name="Visualizacion de foto exitosa #1" classname="Ver fotos en The App" time="21.058"/>
-  <testcase name="Visualizacion de foto exitosa #2" classname="Ver fotos en The App" time="18.043"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

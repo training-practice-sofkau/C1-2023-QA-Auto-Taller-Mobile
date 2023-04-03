@@ -1,5 +1,6 @@
 package com.sofkau.stepdefinitions;
 
+import com.sofkau.questions.FailedLoginAlert;
 import com.sofkau.questions.LogOutButton;
 import com.sofkau.setup.SetUp;
 import io.cucumber.java.en.Given;
@@ -54,4 +55,38 @@ public class LoginStepDefinitions extends SetUp {
             Assertions.fail(e.getMessage());
         }
     }
+
+    @Given("He ingresado a la interfaz dee Login")
+    public void heIngresadoALaInterfazDeeLogin() {
+        try {
+            actor.can(BrowseTheWeb.with(theMobileDevice));
+            actor.attemptsTo(
+                    irALogin()
+            );
+        }catch (Exception e){
+            Assertions.fail(e.getMessage());
+        }
+    }
+    @When("Ingresamos los datos incorrectos de inicio de sesion {string},{string}")
+    public void ingresamosLosDatosIncorrectosDeInicioDeSesion(String user, String pass) {
+        try {
+            actor.attemptsTo(
+                    iniciarSesion().conUser(user)
+                            .conPass(pass)
+            );
+        }catch (Exception e){
+            Assertions.fail(e.getMessage());
+        }
+    }
+    @Then("Se obtiene mensaje indicando que las credenciales son incorrectas")
+    public void seObtieneMensajeIndicandoQueLasCredencialesSonIncorrectas() {
+        try {
+            actor.should(
+                    seeThat(FailedLoginAlert.isEqualTo(), containsString(String.valueOf("Alert")))
+            );
+        }catch (Exception e){
+            Assertions.fail(e.getMessage());
+        }
+    }
+
 }
