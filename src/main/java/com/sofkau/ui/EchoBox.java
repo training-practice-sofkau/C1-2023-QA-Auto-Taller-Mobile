@@ -14,10 +14,10 @@ public class EchoBox {
             .the("escribir Texto")
             .located(xpath("//android.widget.EditText[@content-desc=\"messageInput\"]"));
     public static final Target BTN_SAVE = Target
-            .the("3")
+            .the("boton save")
             .located(xpath("//android.view.ViewGroup[@content-desc=\"messageSaveBtn\"]/android.widget.TextView"));
     public static final Target RESULT_ECHO = Target
-            .the("4")
+            .the("aserción echo")
             .located(xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.TextView[1]"));
 
     private EchoBox() {

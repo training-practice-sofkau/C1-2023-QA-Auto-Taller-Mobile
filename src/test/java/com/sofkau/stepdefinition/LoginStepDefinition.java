@@ -4,8 +4,10 @@ import com.test.setup.SetUp;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.apache.log4j.Logger;
 
 public class LoginStepDefinition extends SetUp {
+    public static Logger LOGGER = Logger.getLogger(String.valueOf((LoginStepDefinition.class)));
     @Given("que accedemos a la aplicacion TheApp")
     public void queAccedemosALaAplicacionTheApp() {
     }
