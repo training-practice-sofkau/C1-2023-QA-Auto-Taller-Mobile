@@ -11,4 +11,7 @@ public class PaginaInicial {
     public static final Target OPCION_CLIPBOARD = Target.the("Opcion de portapapeles")
             .located(By.xpath("//android.view.ViewGroup[@content-desc='Clipboard Demo']"));
 
+    public static final Target OPCION_PICKERDATES = Target.the("Opcion de portapapeles")
+            .located(By.xpath("//android.view.ViewGroup[@content-desc='Picker Demo']"));
+
 }

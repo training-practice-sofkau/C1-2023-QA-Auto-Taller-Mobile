@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Aprender sobre un fecha" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-04-03T19:13:05" hostname="JOSENUÑEZ" time="117.463">
+  <properties/>
+  <testcase name="Buscar fecha #1" classname="Aprender sobre un fecha" time="50.168"/>
+  <testcase name="Buscar fecha #2" classname="Aprender sobre un fecha" time="32.692"/>
+  <testcase name="Buscar fecha #3" classname="Aprender sobre un fecha" time="34.603"/>
+  <system-out><![CDATA[2023-04-03 14:13:25 INFO  DatesStepDefinition:32 Inicio de la automatizacion
+2023-04-03 14:13:42 INFO  DatesStepDefinition:47 Dia y mes seleccionados
+2023-04-03 14:13:51 INFO  DatesStepDefinition:60 Asercion exitosa
+2023-04-03 14:14:10 INFO  DatesStepDefinition:32 Inicio de la automatizacion
+2023-04-03 14:14:24 INFO  DatesStepDefinition:47 Dia y mes seleccionados
+2023-04-03 14:14:27 INFO  DatesStepDefinition:60 Asercion exitosa
+2023-04-03 14:14:42 INFO  DatesStepDefinition:32 Inicio de la automatizacion
+2023-04-03 14:14:58 INFO  DatesStepDefinition:47 Dia y mes seleccionados
+2023-04-03 14:15:01 INFO  DatesStepDefinition:60 Asercion exitosa
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
