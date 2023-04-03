@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Iniciar Sesión" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-04-03T17:05:14" hostname="LAPTOP-LC3UNGF6" time="78.13">
+  <properties/>
+  <testcase name="Inciar Sesión #1" classname="Iniciar Sesión" time="41.697"/>
+  <testcase name="Inciar Sesión #2" classname="Iniciar Sesión" time="17.942"/>
+  <testcase name="Inciar Sesión #3" classname="Iniciar Sesión" time="18.491"/>
+  <system-out><![CDATA[2023-04-03 12:05:15 INFO  LoginStepDefinitions:32 INICIA LA AUTOMATIZACION
+2023-04-03 12:05:44 INFO  LoginStepDefinitions:45 INICIA LA AUTOMATIZACION
+2023-04-03 12:05:55 INFO  LoginStepDefinitions:73 CUMPLE
+2023-04-03 12:05:56 INFO  LoginStepDefinitions:32 INICIA LA AUTOMATIZACION
+2023-04-03 12:06:05 INFO  LoginStepDefinitions:45 INICIA LA AUTOMATIZACION
+2023-04-03 12:06:14 INFO  LoginStepDefinitions:73 CUMPLE
+2023-04-03 12:06:14 INFO  LoginStepDefinitions:32 INICIA LA AUTOMATIZACION
+2023-04-03 12:06:23 INFO  LoginStepDefinitions:45 INICIA LA AUTOMATIZACION
+2023-04-03 12:06:32 INFO  LoginStepDefinitions:73 CUMPLE
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
