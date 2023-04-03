@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Iniciar sesion en la aplicacion myApp" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-04-03T14:10:47" hostname="DESKTOP-BTHGFUF" time="0.417">
+  <properties/>
+  <testcase name="Iniciar sesion" classname="Iniciar sesion en la aplicacion myApp" time="0.417">
+    <failure message="io.cucumber.junit.UndefinedStepException: The step 'el usuario esta en la pagina de inicio' and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;el usuario esta en la pagina de inicio&quot;)&#10;public void elUsuarioEstaEnLaPaginaDeInicio() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;el usuario envia los campos de iniciar sesion {string}, {string}&quot;)&#10;public void elUsuarioEnviaLosCamposDeIniciarSesion(String string, String string2) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;el usuario debe ver su nombre en la pagina principal&quot;)&#10;public void elUsuarioDebeVerSuNombreEnLaPaginaPrincipal() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step 'el usuario esta en la pagina de inicio' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;el usuario esta en la pagina de inicio&quot;)
+public void elUsuarioEstaEnLaPaginaDeInicio() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;el usuario envia los campos de iniciar sesion {string}, {string}&quot;)
+public void elUsuarioEnviaLosCamposDeIniciarSesion(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;el usuario debe ver su nombre en la pagina principal&quot;)
+public void elUsuarioDebeVerSuNombreEnLaPaginaPrincipal() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
