@@ -1,5 +1,6 @@
 package com.test.stepdefinition;
 
+import com.sofkau.question.MensajeListaDemo;
 import com.test.setup.SetUp;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -11,14 +12,15 @@ import org.apache.log4j.Logger;
 import org.assertj.core.api.Assertions;
 import org.junit.Before;
 
-import static com.sofkau.task.ClickHomeTask.clickHomeTask;
 import static com.sofkau.task.ListaDemTask.listaDemTask;
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
+import static org.hamcrest.CoreMatchers.containsString;
 
 public class ListDemoTheAppStepDefinition extends SetUp {
-    public static Logger LOGGER= Logger.getLogger(TheAppStepDefinition.class);
+    public static Logger LOGGER = Logger.getLogger(TheAppStepDefinition.class);
 
     @Before
-    public void before(){
+    public void before() {
         OnStage.setTheStage(new OnlineCast());
 
     }
@@ -29,6 +31,7 @@ public class ListDemoTheAppStepDefinition extends SetUp {
 
 
     }
+
     @When("el usuario usuario elige la nube de su interes")
     public void elUsuarioUsuarioEligeLaNubeDeSuInteres() {
         try {
@@ -44,8 +47,23 @@ public class ListDemoTheAppStepDefinition extends SetUp {
             Assertions.fail("");
         }
     }
+
     @Then("el usuario debera observar un mensaje de confirmacion")
     public void elUsuarioDeberaObservarUnMensajeDeConfirmacion() {
+        try {
+            actor.should(
+                    seeThat(MensajeListaDemo.isEqualTo(), containsString(String.format("Your Cloud Selection")))
+            );
 
+            LOGGER.info("Prueba realizada con exito ");
+
+
+        } catch (Exception e) {
+            LOGGER.info(" Fallo al realizar la assercion");
+            LOGGER.info(e.getMessage());
+            Assertions.fail("");
+
+        }
     }
+
 }

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Lista de nubes" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-03T21:41:35" hostname="ANTONIO" time="41.516">
+  <properties/>
+  <testcase name="obtener una nube de la lista" classname="Lista de nubes" time="41.516"/>
+  <system-out><![CDATA[2023-04-03 16:42:15 INFO  TheAppStepDefinition:42 El usuario ingresa a la lista de demo
+2023-04-03 16:42:16 INFO  TheAppStepDefinition:58 Prueba realizada con exito 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
