@@ -12,4 +12,11 @@ public class InterfazPrincipal {
 
     public static final Target LOGIN=Target.the("Funcionalidad login")
             .located(By.xpath("//android.view.ViewGroup[@content-desc=\"Login Screen\"]/android.widget.TextView[1]"));
+
+    public static final Target WEBVIEW=Target.the("Funcionalidad webview")
+            .located(By.xpath("//android.view.ViewGroup[@content-desc=\"Webview Demo\"]/android.widget.TextView[1]"));
+
+    public static final Target LIST=Target.the("Funcionalidad listdemo")
+            .located(By.xpath("//android.view.ViewGroup[@content-desc=\"List Demo\"]"));
+
 }

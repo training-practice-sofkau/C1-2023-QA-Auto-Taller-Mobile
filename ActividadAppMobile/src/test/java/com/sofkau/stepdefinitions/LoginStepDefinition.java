@@ -1,4 +1,6 @@
 package com.sofkau.stepdefinitions;
+import com.sofkau.questions.LoginExitoso;
+import com.sofkau.questions.LoginFallido;
 import com.sofkau.questions.ResultadoEchoBox;
 import com.sofkau.setup.SetUp;
 import com.sofkau.tasks.echobox.FuncionEchoBox;
@@ -21,6 +23,7 @@ import static com.sofkau.questions.ResultadoEchoBox.resultadoEchoBox;
 import static com.sofkau.tasks.echobox.FuncionEchoBox.funcionEchoBox;
 import static com.sofkau.tasks.echobox.FuncionEchoBox.mensaje;
 import static com.sofkau.tasks.echobox.NavegarAEchoBox.navegarAEchoBox;
+import static com.sofkau.tasks.login.FuncionLogin.funcionLogin;
 import static com.sofkau.tasks.login.NavegarALogin.navegarALogin;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -55,9 +58,33 @@ public class LoginStepDefinition extends SetUp{
     public void escribeSuY(String usuario, String contrasenia) {
         FuncionLogin.us=usuario;
         FuncionLogin.cc=contrasenia;
+        try {
+            actor.attemptsTo(
+                    funcionLogin()
+            );
+        }catch (Exception e){
+            LOGGER.warning(e.getMessage());
+        }
     }
-    @Then("aparece un mensaje que indica el inicio de sesion")
-    public void apareceUnMensajeQueIndicaElInicioDeSesion() {
+    @Then("aparece un {string} que indica si se inicio sesion o no segun si es usuario {int}")
+    public void apareceUnQueIndicaSiSeInicioSesionONoSegunSiEsUsuario(String mensaje, Integer registrado) {
 
+        if(registrado==0){
+            try {
+                actor.should(
+                        seeThat(LoginFallido.isEqualTo(),containsString(mensaje))
+                );
+            }catch (Exception e){
+                LOGGER.warning(e.getMessage());
+            }
+        }else if(registrado==1){
+            try{
+                actor.should(
+                    seeThat(LoginExitoso.isEqualTo(),containsString(mensaje))
+                );
+            }catch (Exception e){
+                LOGGER.warning(e.getMessage());
+            }
+        }
     }
 }

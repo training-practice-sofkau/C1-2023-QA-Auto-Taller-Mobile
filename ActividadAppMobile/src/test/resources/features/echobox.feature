@@ -10,12 +10,8 @@ Feature: Echo Box
     Then obtenemos un mensaje de <respuesta>
 
     Examples:
-<<<<<<< HEAD
       | mensaje   | respuesta |
       | "khepasa" | "khepa"   |
       | "prueba"  | "prueb"   |
       | "wenas"   | "khepasa" |
-=======
-      | mensaje  | respuesta |
-      | "prueba" | "prueba"  |
->>>>>>> origin/main
+

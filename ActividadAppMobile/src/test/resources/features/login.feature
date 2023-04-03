@@ -7,9 +7,9 @@ Feature: Loggin
     Given que el usuario ingresa a la aplicacion v1100
     When entra a la funcionalidad login screen
     And escribe su <usuario> y <contrasenia>
-    Then aparece un mensaje que indica el inicio de sesion
+    Then aparece un <mensaje> que indica si se inicio sesion o no segun si es usuario <registrado>
 
     Examples:
-      | usuario | contrasenia  |
-      | "ola"   | "123"        |
-      | "alice" | "mypassword" |
+      | usuario | contrasenia  | mensaje       | registrado |
+      | "ola"   | "123"        | "Alert"       | 0          |
+      | "alice" | "mypassword" | "Secret Area" | 1          |
