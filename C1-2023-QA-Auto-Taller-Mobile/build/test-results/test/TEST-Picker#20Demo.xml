@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Picker Demo" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-03T20:10:17" hostname="DESKTOP-BTHGFUF" time="15.722">
+  <properties/>
+  <testcase name="PickerDemo" classname="Picker Demo" time="15.722"/>
+  <system-out><![CDATA[2023-04-03 15:10:28 INFO  InicioSesionSD:33 INICIA LA AUTOMATIZACION
+2023-04-03 15:10:32 INFO  InicioSesionSD:49 Realiza la peticion
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
