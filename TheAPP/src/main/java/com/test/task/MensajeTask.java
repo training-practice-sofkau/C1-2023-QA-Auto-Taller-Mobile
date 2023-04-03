@@ -5,7 +5,7 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 
 
-import static com.test.ui.TheAppOverview.ECHO_BOX;
+import static com.test.ui.MensajeTheApp.ECHO_BOX;
 
 public class MensajeTask implements Task {
 

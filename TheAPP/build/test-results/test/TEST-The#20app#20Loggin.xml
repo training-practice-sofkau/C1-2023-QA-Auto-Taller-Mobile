@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="The app Loggin" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-03T19:39:09" hostname="DESKTOP-4V0UC4E" time="46.151">
+  <properties/>
+  <testcase name="Login exitoso" classname="The app Loggin" time="46.151"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[abr. 03, 2023 2:39:54 P. M. com.test.stepdefinition.LoginSD obtendraUnMensajeDeLoginExitoso
+INFO: Prueba realizada con exito 
+]]></system-err>
+</testsuite>

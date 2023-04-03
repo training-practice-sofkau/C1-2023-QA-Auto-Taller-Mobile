@@ -6,7 +6,7 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 
-import static com.test.ui.TheAppOverview.INPUT_MSJ;
+import static com.test.ui.MensajeTheApp.INPUT_MSJ;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.*;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isClickable;
 

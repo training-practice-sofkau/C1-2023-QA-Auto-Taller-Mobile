@@ -1,7 +1,6 @@
 package com.test.stepdefinition;
 
-import com.test.task.EscribirMensajeTask;
-import com.test.task.MensajeTask;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -12,7 +11,9 @@ import org.assertj.core.api.Assertions;
 
 import static com.test.task.EscribirMensajeTask.escribirMensajeTask;
 import static com.test.task.MensajeTask.mensajeTask;
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
+import static org.hamcrest.Matchers.containsString;
 
 public class MensajeSD extends SetUp {
 
@@ -37,6 +38,7 @@ public class MensajeSD extends SetUp {
     }
     @Then("Obtenemos mensaje {string}")
     public void obtenemosMensaje(String string) {
+
 
     }
 

@@ -3,10 +3,10 @@ package com.test.ui;
 import net.serenitybdd.screenplay.targets.Target;
 
 import static io.appium.java_client.AppiumBy.accessibilityId;
-import static io.appium.java_client.AppiumBy.id;
-import static org.openqa.selenium.By.xpath;
 
-public class TheAppOverview {
+import static io.appium.java_client.AppiumBy.*;
+
+public class MensajeTheApp {
 
     public static final Target ECHO_BOX = Target
             .the("Echo box")
@@ -30,7 +30,7 @@ public class TheAppOverview {
 
 
 
-    private TheAppOverview() {
+    private MensajeTheApp() {
     }
 }
 
