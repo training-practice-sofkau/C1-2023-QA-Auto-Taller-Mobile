@@ -14,7 +14,7 @@ public class TheResultPicker {
             .the("MENSAJE FINAL")
             .located(id("android:id/message"));
 
-    public static Question<String> isEqualTo() {
+    public static Question<String> isEqualTo(String s) {
         return TheTarget.textOf(MENSAJE_EVENTO);
     }
 

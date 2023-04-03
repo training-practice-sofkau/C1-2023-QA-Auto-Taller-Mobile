@@ -58,7 +58,7 @@ public class PickerDemoSD extends SetUp {
     public void elUsuarioDebeVerLaInformacionDelEventoDeEsaFecha() {
         try {
             actor.should(
-                    seeThat(TheResultPicker.isEqualTo(), containsString(("The crew of Christopher Columbus's ship, the Santa Maria, attempt a mutiny.")))
+                    seeThat(TheResultPicker.isEqualTo("The crew of Christopher Columbus's ship, the Santa Maria, attempt a mutiny."))
             );
             LOGGER.info("CUMPLE");
         } catch (Exception e) {
