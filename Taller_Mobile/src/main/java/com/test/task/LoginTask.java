@@ -24,9 +24,7 @@ public class LoginTask implements Task {
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
                 Click.on(BTN_LOGIN_SCREEN),
-                Click.on(CAMPO_USER),
                 Enter.theValue(user).into(CAMPO_USER),
-                Click.on(CAMPO_PASSWORD),
                 Enter.theValue(password).into(CAMPO_PASSWORD),
                 Click.on(BTN_LOGIN)
         );
