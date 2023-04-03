@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Inicio de sesion" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-03T21:06:49" hostname="ANTONIO" time="53.568">
+  <properties/>
+  <testcase name="inicio de secion exitoso" classname="Inicio de sesion" time="53.568"/>
+  <system-out><![CDATA[2023-04-03 16:07:37 INFO  TheAppStepDefinition:42 El usuario ingresa a la seccion del loggin
+2023-04-03 16:07:41 INFO  TheAppStepDefinition:60 El usuario fue registrado con exito 
+2023-04-03 16:07:42 INFO  TheAppStepDefinition:76 Prueba realizada con exito 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
