@@ -14,4 +14,7 @@ public class PaginaInicial {
     public static final Target OPCION_PICKERDATES = Target.the("Opcion de portapapeles")
             .located(By.xpath("//android.view.ViewGroup[@content-desc='Picker Demo']"));
 
+    public static final Target OPCION_PHOTO = Target.the("Opcion de aprender sobre foto")
+            .located(By.xpath("//android.view.ViewGroup[@content-desc='Photo Demo']"));
+
 }
