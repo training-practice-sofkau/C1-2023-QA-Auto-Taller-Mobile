@@ -1,4 +1,5 @@
 package com.sofkau.setup;
+import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
@@ -10,7 +11,7 @@ import static com.sofkau.util.Log4j.LOG4J_PROPERTIES_FILE_PATH;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 
 public class SetUp {
-    private static final String ACTOR = "Ivan";
+    private static final Actor ACTOR = Actor.named("Ivan");
     @Managed(driver = "Appium")
     protected WebDriver theMobileDevice;
     protected void quitarDriver() {
@@ -18,7 +19,7 @@ public class SetUp {
     }
     private void setupUser() {
         OnStage.setTheStage(new OnlineCast());
-        theActorCalled(ACTOR).can(BrowseTheWeb.with(theMobileDevice));
+        ACTOR.can(BrowseTheWeb.with(theMobileDevice));
     }
     protected void configurarCelular() {
         setupUser();

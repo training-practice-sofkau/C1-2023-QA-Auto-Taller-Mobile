@@ -4,13 +4,14 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 
-import static com.sofkau.ui.PickerDemoOverview.PICKER_DEMO;
-public class IngresarPickerDemo implements Task {
+import static com.sofkau.ui.PickerDemoOverview.LEARN_MORE;
+
+public class FinalizarIngresarPicker implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                Click.on(PICKER_DEMO)
+                Click.on(LEARN_MORE)
         );
     }
-    public static IngresarPickerDemo ingresarPickerDemo() {return new IngresarPickerDemo();}
+    public static FinalizarIngresarPicker finalizarIngresarPicker() {return new FinalizarIngresarPicker();}
 }
