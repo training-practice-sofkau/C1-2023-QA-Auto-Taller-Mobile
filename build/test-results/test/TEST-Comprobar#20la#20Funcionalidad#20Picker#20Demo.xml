@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Comprobar la Funcionalidad Picker Demo" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-03T20:24:10" hostname="BRYAN-PC" time="15.122">
-  <properties/>
-  <testcase name="Verificar que se muestren noticias en la Funcionalidad Picker Demo" classname="Comprobar la Funcionalidad Picker Demo" time="15.122"/>
-  <system-out><![CDATA[Texto actual: On this day (11/5) in 1991...
-Texto patronTexto: On this day \(11/5\) in \d{4}...
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
