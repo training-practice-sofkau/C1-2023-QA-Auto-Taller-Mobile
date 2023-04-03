@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+    id 'idea'
+    id "net.serenity-bdd.serenity-gradle-plugin" version "3.6.22"
+}
+
+group = 'com.sofkau'
+version = '1.0-SNAPSHOT'
+
+defaultTasks 'clean', 'test', 'aggregate'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.9.2'),
+            'org.junit.jupiter:junit-jupiter',
+            'org.assertj:assertj-core:3.24.2'
+    implementation 'net.serenity-bdd:serenity-core:3.6.22',
+            'net.serenity-bdd:serenity-junit:3.6.22',
+            'net.serenity-bdd:serenity-screenplay:3.6.22',
+            'net.serenity-bdd:serenity-screenplay-webdriver:3.6.22',
+            'net.serenity-bdd:serenity-assertions:3.6.22',
+            'net.serenity-bdd:serenity-ensure:3.6.22',
+            'net.serenity-bdd:serenity-cucumber:3.6.22',
+            'org.slf4j:slf4j-api:2.0.7',
+            'org.slf4j:slf4j-simple:2.0.7',
+            'io.appium:java-client:8.3.0'
+
+}
+
+test {
+    testLogging.showStandardStreams = true
+}
+
+gradle.startParameter.continueOnFailure = true
+
+test.finalizedBy(aggregate)
