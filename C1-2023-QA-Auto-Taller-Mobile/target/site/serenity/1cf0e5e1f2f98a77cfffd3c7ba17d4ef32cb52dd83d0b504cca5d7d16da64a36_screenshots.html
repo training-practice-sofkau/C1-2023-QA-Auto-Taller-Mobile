@@ -151,7 +151,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 03-04-2023 14:40</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 03-04-2023 16:44</span>
     <br style="clear:left"/>
 </div>
 
@@ -194,9 +194,9 @@ para poder usar los servicios de la app
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-x-circle-fill failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Photo demo
+                                <span class="failing-color">Photo demo
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -217,23 +217,56 @@ para poder usar los servicios de la app
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: Expected: a string containing 'This is a picture of: A long thin cloud below mountain level' but: was 'This is a picture of: Imposing mountains and West Vancouver'</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall"
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="bi bi-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.sofkau.stepdefinitions.PhotoDemoSD.elUsuarioDebeVerLaDeLaPhoto(PhotoDemoSD.java:58)<br />✽.el usuario debe ver la "This is a picture of: A long thin cloud below mountain level" de la photo(file:///C:/Users/jeiso/OneDrive/Escritorio/softka/semana%20Automatizacion/C1-2023-QA-Auto-Taller-Mobile/C1-2023-QA-Auto-Taller-Mobile/src/test/resources/features/photodemo.feature:10)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                <div class="panel-body">
+                    <a href="#" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="24bb363f8aa59fde9e4bf4f50e5793ba6041c5e733e43682fc25e9825a24233d.png" title=" 1: PhotoDemo ({informacion=&quot;This is a picture of: A long thin cloud below mountain level&quot;})" width="1080"/>
-                <img src="24bb363f8aa59fde9e4bf4f50e5793ba6041c5e733e43682fc25e9825a24233d.png" title=" Given el usuario esta en la pagina de inicio de la the app" width="1080"/>
-                <img src="24bb363f8aa59fde9e4bf4f50e5793ba6041c5e733e43682fc25e9825a24233d.png" title=" When navega hasta la opcion photo selecciona una photo para ver las descrripcion de cada una de ellas" width="1080"/>
-                <img src="a7a0c80ba833a38f8aa89c281d13730e962fa4d7ba37efe442320d504d81743b.png" title=" User photo demo task" width="1080"/>
-                <img src="a7a0c80ba833a38f8aa89c281d13730e962fa4d7ba37efe442320d504d81743b.png" title=" User clicks on IR PHOTODEMO" width="1080"/>
-                <img src="3667954358bf47321a0c78d1e8b82bb4edfa500cd3a8c7993c3ade42da8afad8.png" title=" User clicks on IR PHOTODEMO (completed)" width="1080"/>
-                <img src="3667954358bf47321a0c78d1e8b82bb4edfa500cd3a8c7993c3ade42da8afad8.png" title=" User clicks on PHOTO 1" width="1080"/>
-                <img src="a0883b7a8525033ae586bf915098cf394ca1aa02880eee2ff8fe1a6a42894777.png" title=" User clicks on PHOTO 1 (completed)" width="1080"/>
-                <img src="a0883b7a8525033ae586bf915098cf394ca1aa02880eee2ff8fe1a6a42894777.png" title=" User photo demo task (completed)" width="1080"/>
-                <img src="a0883b7a8525033ae586bf915098cf394ca1aa02880eee2ff8fe1a6a42894777.png" title=" When navega hasta la opcion photo selecciona una photo para ver las descrripcion de cada una de ellas (completed)" width="1080"/>
-                <img src="a0883b7a8525033ae586bf915098cf394ca1aa02880eee2ff8fe1a6a42894777.png" title=" Then el usuario debe ver la &quot;This is a picture of: A long thin cloud below mountain level&quot; de la photo" width="1080"/>
-                <img src="a0883b7a8525033ae586bf915098cf394ca1aa02880eee2ff8fe1a6a42894777.png" title=" Then INFORMACION DE LA FOTO should be a string containing 'This is a picture of: A long thin cloud below mountain level'" width="1080"/>
-                <img src="03c90c270689084977e76ed4e14946e569159125d21ce03144611da0fafd0308.png" title=" Then INFORMACION DE LA FOTO should be a string containing 'This is a picture of: A long thin cloud below mountain level' (completed)" width="1080"/>
-                <img src="03c90c270689084977e76ed4e14946e569159125d21ce03144611da0fafd0308.png" title=" Then el usuario debe ver la &quot;This is a picture of: A long thin cloud below mountain level&quot; de la photo (completed)" width="1080"/>
-                <img src="03c90c270689084977e76ed4e14946e569159125d21ce03144611da0fafd0308.png" title=" 1: PhotoDemo ({informacion=&quot;This is a picture of: A long thin cloud below mountain level&quot;}) (completed): <span class='success-color'>SUCCESS</span>" width="1080"/>
+                <img src="031efdd03c73c6697c1869b332666cf1d1a016883d57041fb86aad618cff5efa.png" title=" 1: PhotoDemo ({informacion=&quot;This is a picture of: A long thin cloud below mountain level&quot;})" width="1080"/>
+                <img src="031efdd03c73c6697c1869b332666cf1d1a016883d57041fb86aad618cff5efa.png" title=" Given el usuario esta en la pagina de inicio de la the app" width="1080"/>
+                <img src="031efdd03c73c6697c1869b332666cf1d1a016883d57041fb86aad618cff5efa.png" title=" When navega hasta la opcion photo selecciona una photo para ver las descrripcion de cada una de ellas" width="1080"/>
+                <img src="757d0a97a1411068ad47d05571f2757760c351db15730bec5fe29fd704d3ee10.png" title=" User photo demo task" width="1080"/>
+                <img src="757d0a97a1411068ad47d05571f2757760c351db15730bec5fe29fd704d3ee10.png" title=" User clicks on IR PHOTODEMO" width="1080"/>
+                <img src="bd2f08714bbd2f5e9b9514ec0e0e1b9e0acd2f7c8d65d857c0d276a76b76d0af.png" title=" User clicks on IR PHOTODEMO (completed)" width="1080"/>
+                <img src="bd2f08714bbd2f5e9b9514ec0e0e1b9e0acd2f7c8d65d857c0d276a76b76d0af.png" title=" User clicks on PHOTO 1" width="1080"/>
+                <img src="05226dc9171174aac246e8545f3a503a2a390d7102c09b163a4b0eb31e7f4ec0.png" title=" User clicks on PHOTO 1 (completed)" width="1080"/>
+                <img src="05226dc9171174aac246e8545f3a503a2a390d7102c09b163a4b0eb31e7f4ec0.png" title=" User photo demo task (completed)" width="1080"/>
+                <img src="05226dc9171174aac246e8545f3a503a2a390d7102c09b163a4b0eb31e7f4ec0.png" title=" When navega hasta la opcion photo selecciona una photo para ver las descrripcion de cada una de ellas (completed)" width="1080"/>
+                <img src="f0502320b4afdfc4b0687d65fcf5aac27da61ffd0470cded22e8c36a6740867f.png" title=" Then el usuario debe ver la &quot;This is a picture of: A long thin cloud below mountain level&quot; de la photo" width="1080"/>
+                <img src="f0502320b4afdfc4b0687d65fcf5aac27da61ffd0470cded22e8c36a6740867f.png" title=" Then INFORMACION DE LA FOTO should be a string containing 'This is a picture of: A long thin cloud below mountain level': <span class='failing-color'>FAILURE</span>" width="1080"/>
             </div>
         </div>
 
