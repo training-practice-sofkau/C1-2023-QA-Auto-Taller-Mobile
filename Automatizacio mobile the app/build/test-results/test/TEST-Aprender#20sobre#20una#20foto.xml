@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Aprender sobre una foto" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-04-03T20:30:42" hostname="JOSENUÑEZ" time="154.939">
+  <properties/>
+  <testcase name="Buscar fecha #1" classname="Aprender sobre una foto" time="48.295"/>
+  <testcase name="Buscar fecha #2" classname="Aprender sobre una foto" time="35.798"/>
+  <testcase name="Buscar fecha #3" classname="Aprender sobre una foto" time="35.666"/>
+  <testcase name="Buscar fecha #4" classname="Aprender sobre una foto" time="35.18"/>
+  <system-out><![CDATA[2023-04-03 15:31:05 INFO  PhotoStepDefinition:34 Inicio de la automatizacion
+2023-04-03 15:31:21 INFO  PhotoStepDefinition:48 Foto seleccionada
+2023-04-03 15:31:28 INFO  PhotoStepDefinition:61 Asercion exitosa
+2023-04-03 15:31:46 INFO  PhotoStepDefinition:34 Inicio de la automatizacion
+2023-04-03 15:32:00 INFO  PhotoStepDefinition:48 Foto seleccionada
+2023-04-03 15:32:04 INFO  PhotoStepDefinition:61 Asercion exitosa
+2023-04-03 15:32:23 INFO  PhotoStepDefinition:34 Inicio de la automatizacion
+2023-04-03 15:32:35 INFO  PhotoStepDefinition:48 Foto seleccionada
+2023-04-03 15:32:40 INFO  PhotoStepDefinition:61 Asercion exitosa
+2023-04-03 15:32:56 INFO  PhotoStepDefinition:34 Inicio de la automatizacion
+2023-04-03 15:33:10 INFO  PhotoStepDefinition:48 Foto seleccionada
+2023-04-03 15:33:15 INFO  PhotoStepDefinition:61 Asercion exitosa
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
