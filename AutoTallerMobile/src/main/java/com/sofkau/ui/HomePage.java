@@ -11,7 +11,7 @@ public class HomePage extends PageObject {
     public static final Target LOGIN_SCREEN_FEATURE = Target.the("login feature")
             .located(By.xpath("//android.view.ViewGroup[@content-desc=\"Login Screen\"]/android.view.ViewGroup/android.view.ViewGroup/android.widget.TextView"));
     public static final Target ECHO_BOX_FEATURE = Target.the("echo box feature")
-            .located(xpath("//android.view.ViewGroup[@content-desc=\"Echo Box\"]/android.widget.TextView[1]"));
+            .located(xpath("//android.view.ViewGroup[@content-desc=\"Echo Box\"]/android.view.ViewGroup/android.view.ViewGroup/android.widget.TextView"));
 
     public static final Target PICKER_DEMO_FEATURE = Target.the("picker demo feature")
             .located(xpath("//android.view.ViewGroup[@content-desc=\"Picker Demo\"]/android.widget.TextView[1]"));
