@@ -1,6 +1,5 @@
 package com.sofkau.stepdefinitions;
 
-import com.sofkau.questions.LogOutButton;
 import com.sofkau.questions.MensajeRefrescado;
 import com.sofkau.setup.SetUp;
 import io.cucumber.java.en.Given;
@@ -11,7 +10,6 @@ import org.assertj.core.api.Assertions;
 
 import static com.sofkau.questions.MensajeRefrescado.INPUT_MESSAGE;
 import static com.sofkau.task.IrAClipboard.irAClipboard;
-import static com.sofkau.task.IrALogin.irALogin;
 import static com.sofkau.task.RefrescarClipboard.refrescarClipboard;
 import static com.sofkau.task.SetearNuevoMensaje.setearNuevoMensaje;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
