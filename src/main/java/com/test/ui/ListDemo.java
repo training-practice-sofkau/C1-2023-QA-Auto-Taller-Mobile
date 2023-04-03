@@ -6,7 +6,7 @@ import static io.appium.java_client.AppiumBy.id;
 import static org.openqa.selenium.By.xpath;
 
 public class ListDemo {
-    public static final Target ListDemo = Target
+    public static final Target LISTDEMO = Target
             .the("ListDemo")
             .located(xpath("//android.view.ViewGroup[@content-desc=\"List Demo\"]"));
     public static final Target CIRRUS = Target

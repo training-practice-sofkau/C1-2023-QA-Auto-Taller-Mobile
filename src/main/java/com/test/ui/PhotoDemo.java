@@ -18,7 +18,9 @@ public class PhotoDemo {
     public static final Target PHOTO4 = Target
             .the("foto 4")
             .located(xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[4]/android.widget.ImageView"));
-
+    public static final Target BTN_OK = Target
+            .the("boton ok")
+            .located(id("android:id/button1"));
     private PhotoDemo() {
     }
 }
