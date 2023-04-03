@@ -3,20 +3,15 @@ package com.test.stepdefinition;
 
 import com.test.question.TheResultLogin;
 import com.test.setup.SetUp;
-
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import org.assertj.core.api.Assertions;
-
 import java.util.logging.Logger;
-
-
 import static com.test.task.LoginEscreenTask.loginEscreenTask;
 import static com.test.task.LoginTask.loginTask;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
-
 import static org.hamcrest.Matchers.containsString;
 
 
@@ -57,19 +52,19 @@ public class LoginSD extends SetUp {
     }
     @Then("Obtendra un mensaje de login exitoso")
     public void obtendraUnMensajeDeLoginExitoso() {
-        try {
-            actor.should(
-                    seeThat(TheResultLogin.isEqualTo(), containsString(String.format("Secret Area")))
-            );
+            try {
+                actor.should(
+                        seeThat(TheResultLogin.isEqualTo(), containsString(String.format("Secret Area")))
+                );
 
-            LOGGER.info("Prueba realizada con exito ");
+                LOGGER.info("Prueba realizada con exito ");
 
-        } catch (Exception e) {
-            LOGGER.info(" Fallo al realizar la assercion");
-            LOGGER.warning(e.getMessage());
-            Assertions.fail(e.getMessage());
+            } catch (Exception e) {
+                LOGGER.info(" Fallo al realizar la assercion");
+                LOGGER.warning(e.getMessage());
+                Assertions.fail(e.getMessage());
 
-        }
+            }
     }
 
 

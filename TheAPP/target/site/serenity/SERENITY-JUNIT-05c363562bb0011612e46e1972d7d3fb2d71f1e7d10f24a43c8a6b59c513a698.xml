@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="The app Echo Box" skipped="0" tests="1" time="41.33" timestamp="2023-04-03 01:57:40"><testcase name="Guardar mensaje"><failure message="Fallo prueba" type="java.lang.AssertionError">Fallo prueba</failure><system-err>Fallo prueba&#13;
-com.test.stepdefinition.MensajeSD.agregamosElMensaje(MensajeSD.java:35)&#13;
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="The app Echo Box" skipped="0" tests="1" time="38.48" timestamp="2023-04-03 02:44:55"><testcase name="Guardar mensaje"><failure message="Fallo prueba" type="java.lang.AssertionError">Fallo prueba</failure><system-err>Fallo prueba&#13;
+com.test.stepdefinition.MensajeSD.agregamosElMensaje(MensajeSD.java:36)&#13;
 ✽.Agregamos el mensaje "hola"(file:///D:/10.%20SOFKAU/2.%20Programación/5.%20Mobile/C1-2023-QA-Auto-Taller-Mobile/TheApp/src/test/resources/features/mensaje.feature:5)&#13;
 </system-err></testcase></testsuite>

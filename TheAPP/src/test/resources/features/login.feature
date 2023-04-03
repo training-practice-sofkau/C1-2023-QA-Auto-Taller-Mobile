@@ -1,7 +1,7 @@
-Feature: The app Loggin
+Feature: Login en the App
   yo como usuario de The App
   quiero loggerame en la app
-  para poder accer a los servicios de la App
+  para poder accerder a los servicios de la App
 
   Scenario Outline: Login exitoso
     Given el usuario està funcionalidad Loggin screen

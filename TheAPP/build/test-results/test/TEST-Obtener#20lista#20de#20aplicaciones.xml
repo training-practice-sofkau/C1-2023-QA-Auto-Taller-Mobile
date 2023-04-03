@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Obtener lista de aplicaciones" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-04-03T21:49:31" hostname="DESKTOP-4V0UC4E" time="1.065">
+  <properties/>
+  <testcase name="listar aplicaciones demo" classname="Obtener lista de aplicaciones" time="1.065">
+    <failure message="io.cucumber.junit.UndefinedStepException: The step 'que el usario ingresa a la funcionalidad list demo' and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;que el usario ingresa a la funcionalidad list demo&quot;)&#10;public void queElUsarioIngresaALaFuncionalidadListDemo() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;seleciona una aplicacion&quot;)&#10;public void selecionaUnaAplicacion() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;Obtendra el nombre de la aplicacion&quot;)&#10;public void obtendraElNombreDeLaAplicacion() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step 'que el usario ingresa a la funcionalidad list demo' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;que el usario ingresa a la funcionalidad list demo&quot;)
+public void queElUsarioIngresaALaFuncionalidadListDemo() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;seleciona una aplicacion&quot;)
+public void selecionaUnaAplicacion() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;Obtendra el nombre de la aplicacion&quot;)
+public void obtendraElNombreDeLaAplicacion() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

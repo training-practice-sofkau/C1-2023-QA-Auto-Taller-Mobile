@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Obtener mensaje por clipboard" skipped="0" tests="1" time="53.09" timestamp="2023-04-03 03:16:21"><testcase name="T"><failure message="Could not instantiate class io.appium.java_client.AppiumDriver" type="java.lang.AssertionError">Could not instantiate class io.appium.java_client.AppiumDriver</failure><system-err>Could not instantiate class io.appium.java_client.AppiumDriver&#13;
+com.test.stepdefinition.SetMensajeSD.ingresamosALaFuncionalidadClipboard(SetMensajeSD.java:33)&#13;
+✽.Ingresamos a la funcionalidad Clipboard(file:///D:/10.%20SOFKAU/2.%20Programación/5.%20Mobile/C1-2023-QA-Auto-Taller-Mobile/TheApp/src/test/resources/features/setmensaje.feature:7)&#13;
+</system-err></testcase></testsuite>

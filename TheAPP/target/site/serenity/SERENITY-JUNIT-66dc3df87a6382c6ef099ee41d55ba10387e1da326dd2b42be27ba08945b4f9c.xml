@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Obtener mensaje por clipboard" skipped="0" tests="1" time="116.97" timestamp="2023-04-03 04:41:20"><testcase name="mensaje por clipboard"><failure message="Fallo prueba" type="java.lang.AssertionError">Fallo prueba</failure><system-err>Fallo prueba&#13;
+com.test.stepdefinition.SetMensajeSD.ingresaElMensaje(SetMensajeSD.java:47)&#13;
+✽.ingresa el mensaje "mensaje"(file:///D:/10.%20SOFKAU/2.%20Programación/5.%20Mobile/C1-2023-QA-Auto-Taller-Mobile/TheApp/src/test/resources/features/setmensaje.feature:8)&#13;
+</system-err></testcase></testsuite>

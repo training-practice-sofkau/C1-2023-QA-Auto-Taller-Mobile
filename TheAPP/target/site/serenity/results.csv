@@ -1,3 +1,7 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
+"Obtener lista de aplicaciones","listar aplicaciones demo","PENDING","2023-04-03T16:49:32.5130334-05:00[America/Bogota]","0.0","0.42"
 "The app Loggin","Login exitoso","SUCCESS","2023-04-03T14:39:09.4545518-05:00[America/Bogota]","0.0","45.73"
-"The app Echo Box","Guardar mensaje","FAILURE","2023-04-03T13:57:40.7238433-05:00[America/Bogota]","0.0","41.33"
+"Login en the App","Login exitoso","SUCCESS","2023-04-03T16:14:08.3527992-05:00[America/Bogota]","0.0","69.65"
+"The app Echo Box","Guardar mensaje","FAILURE","2023-04-03T14:44:55.7143153-05:00[America/Bogota]","0.0","38.48"
+"Obtener mensaje por clipboard","T","FAILURE","2023-04-03T15:16:21.4414971-05:00[America/Bogota]","0.0","53.09"
+"Obtener mensaje por clipboard","mensaje por clipboard","FAILURE","2023-04-03T16:41:20.105484-05:00[America/Bogota]","0.0","116.97"

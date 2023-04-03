@@ -24,12 +24,6 @@ public class MensajeTheApp {
             .the("input msj")
             .located(xpath("//android.view.ViewGroup[@content-desc=\"messageSaveBtn\"]/android.widget.TextView"));
 
-
-
-
-
-
-
     private MensajeTheApp() {
     }
 }
