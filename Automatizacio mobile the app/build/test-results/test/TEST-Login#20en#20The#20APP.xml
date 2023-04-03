@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Login en The APP" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-04-03T14:31:49" hostname="JOSENUÑEZ" time="78.157">
+<testsuite name="Login en The APP" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-04-03T15:47:23" hostname="JOSENUÑEZ" time="119.715">
   <properties/>
-  <testcase name="Login exitoso en la aplicacion" classname="Login en The APP" time="27.855"/>
-  <testcase name="Login fallido en la aplicacion #1" classname="Login en The APP" time="16.331"/>
-  <testcase name="Login fallido en la aplicacion #2" classname="Login en The APP" time="16.691"/>
-  <testcase name="Login fallido en la aplicacion #3" classname="Login en The APP" time="17.28"/>
-  <system-out><![CDATA[2023-04-03 09:32:12 INFO  LoginExitosoStepDefinition:27 Inicio de la automatizacion
-2023-04-03 09:32:30 INFO  LoginFallidoStepDefinition:25 Inicio de la automatizacion
-2023-04-03 09:32:46 INFO  LoginFallidoStepDefinition:25 Inicio de la automatizacion
-2023-04-03 09:33:03 INFO  LoginFallidoStepDefinition:25 Inicio de la automatizacion
+  <testcase name="Login exitoso en la aplicacion" classname="Login en The APP" time="36.504"/>
+  <testcase name="Login fallido en la aplicacion #1" classname="Login en The APP" time="26.366"/>
+  <testcase name="Login fallido en la aplicacion #2" classname="Login en The APP" time="29.017"/>
+  <testcase name="Login fallido en la aplicacion #3" classname="Login en The APP" time="27.828"/>
+  <system-out><![CDATA[2023-04-03 10:47:41 INFO  LoginExitosoStepDefinition:33 Inicio de la automatizacion
+2023-04-03 10:47:55 INFO  LoginExitosoStepDefinition:48 Iniciando sesion
+2023-04-03 10:47:58 INFO  LoginExitosoStepDefinition:62 Sesion iniciada correctamente
+2023-04-03 10:48:12 INFO  LoginFallidoStepDefinition:32 Inicio de la automatizacion
+2023-04-03 10:48:23 INFO  LoginFallidoStepDefinition:47 Iniciando sesion
+2023-04-03 10:48:25 INFO  LoginFallidoStepDefinition:62 Sesion iniciada correctamente
+2023-04-03 10:48:41 INFO  LoginFallidoStepDefinition:32 Inicio de la automatizacion
+2023-04-03 10:48:52 INFO  LoginFallidoStepDefinition:47 Iniciando sesion
+2023-04-03 10:48:54 INFO  LoginFallidoStepDefinition:62 Sesion iniciada correctamente
+2023-04-03 10:49:10 INFO  LoginFallidoStepDefinition:32 Inicio de la automatizacion
+2023-04-03 10:49:20 INFO  LoginFallidoStepDefinition:47 Iniciando sesion
+2023-04-03 10:49:21 INFO  LoginFallidoStepDefinition:62 Sesion iniciada correctamente
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

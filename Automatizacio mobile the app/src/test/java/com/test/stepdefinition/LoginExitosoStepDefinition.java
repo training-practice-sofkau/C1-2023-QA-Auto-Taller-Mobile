@@ -47,7 +47,7 @@ public class LoginExitosoStepDefinition extends SetUp {
             );
             LOGGER.info("Iniciando sesion");
         } catch (Exception e){
-            LOGGER.warn("Fallo en la automatizacion");
+            LOGGER.warn("Fallo al iniciar sesion");
             Assertions.fail(e.getMessage());
         }
     }
