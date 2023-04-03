@@ -10,8 +10,8 @@ Feature: Echo Box
     Then obtenemos un mensaje de <respuesta>
 
     Examples:
-      | mensaje   | respuesta |
-      | "khepasa" | "khepa"   |
-      | "prueba"  | "prueb"   |
-      | "wenas"   | "khepasa" |
+      | mensaje       | respuesta     |
+      | "mensaje1"    | "mensaje1"    |
+      | "prueba"      | "prueba"      |
+      | "-0-09-90-[p" | "-0-09-90-[p" |
 

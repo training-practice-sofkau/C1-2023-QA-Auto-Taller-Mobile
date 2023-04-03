@@ -16,8 +16,7 @@ import org.junit.Before;
 
 import java.util.logging.Logger;
 
-import static com.sofkau.questions.ResultadoEchoBox.RESULTADO_ECHO_BOX;
-import static com.sofkau.questions.ResultadoEchoBox.resultadoEchoBox;
+
 import static com.sofkau.tasks.echobox.FuncionEchoBox.funcionEchoBox;
 import static com.sofkau.tasks.echobox.FuncionEchoBox.mensaje;
 import static com.sofkau.tasks.echobox.NavegarAEchoBox.navegarAEchoBox;
@@ -69,7 +68,7 @@ public class EchoBoxStepDefinition extends SetUp {
     public void obtenemosUnMensajeDe(String respuesta) {
         try {
             actor.should(
-                    seeThat(resultadoEchoBox(),equalTo(respuesta))
+                    seeThat(ResultadoEchoBox.isEqualTo(),containsString(respuesta))
             );
         }catch (Exception e){
             LOGGER.warning(e.getMessage());

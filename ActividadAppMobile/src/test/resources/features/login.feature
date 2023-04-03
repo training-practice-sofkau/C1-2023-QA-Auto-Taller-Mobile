@@ -13,3 +13,5 @@ Feature: Loggin
       | usuario | contrasenia  | mensaje       | registrado |
       | "ola"   | "123"        | "Alert"       | 0          |
       | "alice" | "mypassword" | "Secret Area" | 1          |
+      | "alic"  | "mypassword" | "Secret Area" | 0          |
+      | "alice" | "mypasswor"  | "Secret Area" | 0          |
