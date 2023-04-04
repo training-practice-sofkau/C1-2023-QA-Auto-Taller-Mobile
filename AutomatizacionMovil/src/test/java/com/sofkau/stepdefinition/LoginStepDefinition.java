@@ -39,8 +39,8 @@ public class LoginStepDefinition extends SetUp {
     public void ingresaElUsuarioYContrasenna() {
         try {
             ACTOR.attemptsTo(
-                    colocarUsuario().conElUsuario("alice"),
-                    colocarContrasenna().conLaContrasenna("mypassword"),
+                    colocarUsuario().conElUsuario(""),
+                    colocarContrasenna().conLaContrasenna(""),
                     finalizarLogin()
             );
             LOGGER.info("Se inicia sesion");
