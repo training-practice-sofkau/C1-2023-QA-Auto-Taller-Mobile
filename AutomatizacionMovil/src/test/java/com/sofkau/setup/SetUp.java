@@ -11,7 +11,7 @@ import static com.sofkau.util.Log4j.LOG4J_PROPERTIES_FILE_PATH;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 
 public class SetUp {
-    private static final Actor ACTOR = Actor.named("Ivan");
+    protected static final Actor ACTOR = Actor.named("Ivan");
     @Managed(driver = "Appium")
     protected WebDriver theMobileDevice;
     protected void quitarDriver() {
