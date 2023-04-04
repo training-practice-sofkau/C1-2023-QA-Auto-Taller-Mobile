@@ -3,9 +3,11 @@ Feature: Echo Box
   I want: To read what I wrote
   So that
 
+  Background: To be at home screen
+    Given I was on the home screen
+
   @Echo
   Scenario Outline: See the written text
-    Given I was on the home screen
     When I select Echo Box option
     And I type '<text>'
     Then I will see the same text '<same>'
