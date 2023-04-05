@@ -1,18 +1,20 @@
-com/test/setup/SetUp.java
- com.test.setup.SetUp
-com/test/runner/PhotoDemoTest.java
- com.test.runner.PhotoDemoTest
-com/test/runner/EchoBoxTest.java
- com.test.runner.EchoBoxTest
-com/test/runner/ListDemoTest.java
- com.test.runner.ListDemoTest
-com/test/stepdefinition/PhotoDemoStepDefinition.java
- com.test.stepdefinition.PhotoDemoStepDefinition
-com/test/runner/LoginTest.java
- com.test.runner.LoginTest
-com/test/stepdefinition/LoginStepDefinition.java
- com.test.stepdefinition.LoginStepDefinition
-com/test/stepdefinition/EchoBoxStepDefinition.java
- com.test.stepdefinition.EchoBoxStepDefinition
-com/test/stepdefinition/ListDemoStepDefinition.java
- com.test.stepdefinition.ListDemoStepDefinition
+com/sofkau/runner/ListDemoTest.java
+ com.sofkau.runner.ListDemoTest
+com/sofkau/stepdefinition/EchoBoxStepDefinition.java
+ com.sofkau.stepdefinition.EchoBoxStepDefinition
+com/sofkau/stepdefinition/PhotoDemoStepDefinition.java
+ com.sofkau.stepdefinition.PhotoDemoStepDefinition
+com/sofkau/setup/SetUp.java
+ com.sofkau.setup.SetUp
+com/sofkau/runner/GeneralTest.java
+ com.sofkau.runner.GeneralTest
+com/sofkau/runner/EchoBoxTest.java
+ com.sofkau.runner.EchoBoxTest
+com/sofkau/runner/LoginTest.java
+ com.sofkau.runner.LoginTest
+com/sofkau/stepdefinition/ListDemoStepDefinition.java
+ com.sofkau.stepdefinition.ListDemoStepDefinition
+com/sofkau/runner/PhotoDemoTest.java
+ com.sofkau.runner.PhotoDemoTest
+com/sofkau/stepdefinition/LoginStepDefinition.java
+ com.sofkau.stepdefinition.LoginStepDefinition

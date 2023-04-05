@@ -1,10 +1,10 @@
-package com.test.task;
+package com.sofkau.task;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 
-import static com.test.ui.PhotoDemo.*;
+import static com.sofkau.ui.PhotoDemo.*;
 
 public class DescripcionFoto implements Task {
 
@@ -15,8 +15,7 @@ public class DescripcionFoto implements Task {
                 Click.on(PHOTODEMO),
                 Click.on(PHOTO1),
                 Click.on(BTN_OK),
-                Click.on(PHOTO4),
-                Click.on(BTN_OK)
+                Click.on(PHOTO4)
 
         );
 

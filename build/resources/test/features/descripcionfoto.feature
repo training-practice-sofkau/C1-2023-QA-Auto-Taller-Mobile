@@ -6,5 +6,5 @@ Feature: Descripcion de fotos en TheApp
 
   Scenario: Consulta de informacion de una foto
     Given que ingresamos a la aplicacion TheApp
-    When seleccionamos la opcion la opcion PhotoDemo y seleccionamos una foto
+    When seleccionamos la opcion PhotoDemo y seleccionamos una foto
     Then obtenemos la información de la foto

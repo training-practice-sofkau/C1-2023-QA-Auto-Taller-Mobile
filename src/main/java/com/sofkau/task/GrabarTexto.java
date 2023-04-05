@@ -1,14 +1,11 @@
-package com.test.task;
+package com.sofkau.task;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
-import net.serenitybdd.screenplay.actions.SendKeys;
-import net.serenitybdd.screenplay.actions.SendKeysIntoBy;
 
-import static com.test.ui.EchoBox.*;
-import static com.test.ui.PhotoDemo.*;
+import static com.sofkau.ui.EchoBox.*;
 
 public class GrabarTexto implements Task {
 

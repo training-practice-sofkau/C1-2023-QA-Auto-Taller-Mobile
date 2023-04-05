@@ -1,10 +1,10 @@
-package com.test.task;
+package com.sofkau.task;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 
-import static com.test.ui.ListDemo.*;
+import static com.sofkau.ui.ListDemo.*;
 
 public class ListaDeCosas implements Task {
     @Override
@@ -15,8 +15,7 @@ public class ListaDeCosas implements Task {
                 Click.on(CIRRUS),
                 Click.on(LEARN_MORE),
                 Click.on(BTN_OK),
-                Click.on(FOG),
-                Click.on(BTN_OK)
+                Click.on(FOG)
         );
     }
     public static ListaDeCosas listaDeCosas() {return new ListaDeCosas();

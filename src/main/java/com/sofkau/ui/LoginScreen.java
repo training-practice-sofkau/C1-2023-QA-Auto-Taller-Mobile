@@ -1,8 +1,6 @@
-package com.test.ui;
+package com.sofkau.ui;
 
 import net.serenitybdd.screenplay.targets.Target;
-
-import static io.appium.java_client.AppiumBy.id;
 import static org.openqa.selenium.By.xpath;
 
 public class LoginScreen {
@@ -15,9 +13,9 @@ public class LoginScreen {
     public static final Target PASSWORD = Target
             .the("contraseña")
             .located(xpath("//android.widget.EditText[@content-desc=\"password\"]"));
-    public static final Target BTN_LOOGIN = Target
+    public static final Target BTN_LOGIN = Target
             .the("boton login")
-            .located(id("//android.view.ViewGroup[@content-desc=\"loginBtn\"]/android.widget.TextView"));
+            .located(xpath("//android.view.ViewGroup[@content-desc=\"loginBtn\"]/android.widget.TextView"));
     public static final Target LOGGED = Target
             .the("logueado")
             .located(xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.TextView[2]"));

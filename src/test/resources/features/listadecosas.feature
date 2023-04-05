@@ -5,5 +5,5 @@ Feature: lista de cosas en TheApp
 
   Scenario: Consulta de informacion de una lista de cosas
     Given que iniciamos la aplicacion TheApp
-    When seleccionamos la opcion la opcion ListDemo y seleccionamos una cosa
+    When seleccionamos la opcion ListDemo y seleccionamos una cosa
     Then obtenemos informacion acerca de la cosa de la lista
