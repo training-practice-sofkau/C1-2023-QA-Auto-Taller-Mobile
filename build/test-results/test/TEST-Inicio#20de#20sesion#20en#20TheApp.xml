@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Inicio de sesion en TheApp" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-04T04:39:28" hostname="DESKTOP-L1405KV" time="20.57">
+  <properties/>
+  <testcase name="inicio de sesion exitoso" classname="Inicio de sesion en TheApp" time="20.57"/>
+  <system-out><![CDATA[2023-04-03 23:39:40 INFO  LoginStepDefinition:21 Inicio de la automatizacion
+2023-04-03 23:39:47 INFO  LoginStepDefinition:34 usuario y contraseña ingresados
+2023-04-03 23:39:47 INFO  LoginStepDefinition:45 Verificando que el usuario vea un mensaje de login exitoso
+2023-04-03 23:39:48 INFO  LoginStepDefinition:49 mensaje de logueo visto correctamente
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

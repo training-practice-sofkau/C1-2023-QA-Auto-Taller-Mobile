@@ -1,0 +1,26 @@
+com/sofkau/question/TheResultId.java
+ com.sofkau.question.TheResultId
+com/sofkau/question/TheResultEcho.java
+ com.sofkau.question.TheResultEcho
+com/sofkau/task/DescripcionFoto.java
+ com.sofkau.task.DescripcionFoto
+com/sofkau/ui/ListDemo.java
+ com.sofkau.ui.ListDemo
+com/sofkau/question/TheResultPhoto.java
+ com.sofkau.question.TheResultPhoto
+com/sofkau/task/ListaDeCosas.java
+ com.sofkau.task.ListaDeCosas
+com/sofkau/util/Log4j.java
+ com.sofkau.util.Log4j
+com/sofkau/ui/EchoBox.java
+ com.sofkau.ui.EchoBox
+com/sofkau/ui/PhotoDemo.java
+ com.sofkau.ui.PhotoDemo
+com/sofkau/task/GrabarTexto.java
+ com.sofkau.task.GrabarTexto
+com/sofkau/question/TheResultLogin.java
+ com.sofkau.question.TheResultLogin
+com/sofkau/ui/LoginScreen.java
+ com.sofkau.ui.LoginScreen
+com/sofkau/task/IniciarSesion.java
+ com.sofkau.task.IniciarSesion

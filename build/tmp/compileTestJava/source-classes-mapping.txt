@@ -1,0 +1,20 @@
+com/sofkau/runner/ListDemoTest.java
+ com.sofkau.runner.ListDemoTest
+com/sofkau/stepdefinition/EchoBoxStepDefinition.java
+ com.sofkau.stepdefinition.EchoBoxStepDefinition
+com/sofkau/stepdefinition/PhotoDemoStepDefinition.java
+ com.sofkau.stepdefinition.PhotoDemoStepDefinition
+com/sofkau/setup/SetUp.java
+ com.sofkau.setup.SetUp
+com/sofkau/runner/GeneralTest.java
+ com.sofkau.runner.GeneralTest
+com/sofkau/runner/EchoBoxTest.java
+ com.sofkau.runner.EchoBoxTest
+com/sofkau/runner/LoginTest.java
+ com.sofkau.runner.LoginTest
+com/sofkau/stepdefinition/ListDemoStepDefinition.java
+ com.sofkau.stepdefinition.ListDemoStepDefinition
+com/sofkau/runner/PhotoDemoTest.java
+ com.sofkau.runner.PhotoDemoTest
+com/sofkau/stepdefinition/LoginStepDefinition.java
+ com.sofkau.stepdefinition.LoginStepDefinition
